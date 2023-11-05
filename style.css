@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --Primary: #ffffff;
+  --Secondary: #111111;
+  --Tertiary: #333333;
+}
+hr {
+  background: rgba(102, 102, 102, 0.25);
+  height: 2px;
+  margin-block: 32px;
+}
+body {
+  background-image: url(Backdrop.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sign-up-container {
+  max-width: 420px;
+  max-height: 438px;
+  border-radius: 24px;
+  background-color: var(--Primary);
+}
+
+.sign-up__block {
+  padding: 38px;
+  position: relative;
+}
+.sign-up__close-icon{
+position: absolute;
+right: 5px;
+}
+
+.sign-up__header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-block: 10px;
+  margin-block: 20px;
+}
+.sign-up__header h1 {
+  color: var(--Secondary);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 41px;
+}
+.sign-up__header img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-block: 16px;
+}
+.sign-up__header button {
+  display: flex;
+  padding: 10px 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  border: 1px solid #333;
+  background: #fff;
+  cursor: pointer;
+}
+.sign-up__header button span {
+  color: #333;
+  font-family: Avenir;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 10px;
+}
+.sign-up__footer p,a {
+  color: var(--Secondary);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1,5;
+  text-align: center;
+}
